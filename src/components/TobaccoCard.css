@@ -1,0 +1,63 @@
+.tobacco-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.tobacco-card:hover {
+  transform: translateY(-5px);
+}
+
+.tobacco-card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tobacco-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tobacco-card-content {
+  padding: 1.5rem;
+}
+
+.tobacco-card-name {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.tobacco-card-type {
+  color: #666;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.tobacco-card-description {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tobacco-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tobacco-card-strength {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.tobacco-card-price {
+  font-weight: bold;
+  color: #3498db;
+  font-size: 1.125rem;
+}
